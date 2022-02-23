@@ -13,11 +13,11 @@ The Data used for this analysis was scraped from Box Office Mojo (https://www.bo
 After scraping, compiling, and cleaning the data, I was left with 1071 observations with 158 columns (including dummy variables). The number of columns decreased as I was modeling.
 
 ## Algorithms
-Train-Test-Split to separate the data to experiment on
-Linear Regression to assess the initial fit
-Cross-Validation to check for overfitting
-VIF calculations to eliminate variables with strong multicollinearity
-Lasso Regression to scale and regularize the variables
+1. Train-Test-Split to separate the data to experiment on
+2. Linear Regression to assess the initial fit
+3. Cross-Validation to check for overfitting
+4. VIF calculations to eliminate variables with strong multicollinearity
+5. Lasso Regression to scale and regularize the variables
 
 ## Tools
 1. Requests and BeautifulSoup -- Scraping and parsing HTML from Box Office Mojo
