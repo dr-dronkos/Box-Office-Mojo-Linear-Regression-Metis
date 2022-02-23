@@ -1,7 +1,6 @@
 # Box-Office-Mojo-Linear-Regression-Metis
 
-# International Box Office Success: 
-Predicting which films become successful outside the U.S.
+# International Box Office Success: Predicting which films become successful outside the U.S.
 
 ## Abstract
 This project used data scraped from Box Office Mojo (https://www.boxofficemojo.com/) about 1200 movies that opened between 2016 and 2021 to explore which features best predict a film's international success, as measured by international gross. An initial linear regression model was constructed using 158 features, but the unstable R^2 values across each K-fold in cross validation suggested that the model was overfit due to multicollinearity. Variation Inflation Factor (VIF) calculations were used to pinpoint and drop features affected by strong multicollinearity. After fitting a standard scalar and Lasso regression and iterating over different combinations of features, a model with 12 features was chosen to train and test on the test data. The test data's R^2 was 0.737, which is not far from the R^2 for the training data of 0.743. By far the variable with the highest predictive power was the domestic (U.S.) gross for the film.
