@@ -21,7 +21,7 @@ After scraping, compiling, and cleaning the data, I was left with 1071 observati
 
 ## Tools
 1. Requests and BeautifulSoup -- Scraping and parsing HTML from Box Office Mojo
-2. Pandas -- Exploring, manipulating, aggregating, and merging dataframes
+2. Pandas -- Exploring, manipulating, aggregating, and merging dataframes, as well as feature engineering like generating binary dummies to encode categorical data
 3. Numpy and Scikit-learn -- Fitting linear regression models, splitting data into train and test sets, executing cross validations, VIF calculations, scaling, and fitting Lasso regression
 4. Seaborn and matplotlib -- Pair plots, plotting predicted vs. actual target values
 5. Statsmodels -- Generating initial R^2 and coefficients
