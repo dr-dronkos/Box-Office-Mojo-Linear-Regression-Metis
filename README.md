@@ -27,4 +27,5 @@ After scraping, compiling, and cleaning the data, I was left with 1071 observati
 5. Statsmodels -- Generating initial R^2 and coefficients
 
 ## Communication
-[Metis_Linear_Regression_and_Web_Scraping_Danielle_Ronkos.pdf](https://github.com/dr-dronkos/Box-Office-Mojo-Linear-Regression-Metis/files/8122016/Metis_Linear_Regression_and_Web_Scraping_Danielle_Ronkos.pdf)
+[Metis_Linear_Regression_and_Web_Scraping_Danielle_Ronkos.pdf](https://github.com/dr-dronkos/Box-Office-Mojo-Linear-Regression-Metis/files/8128831/Metis_Linear_Regression_and_Web_Scraping_Danielle_Ronkos.pdf)
+
